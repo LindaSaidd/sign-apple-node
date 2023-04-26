@@ -50,10 +50,9 @@ app.get('/refresh', async (req, res) => {
     }
 });
 
-// const port = process.env.PORT || 3001
-// app.listen(port, () => {
-//     console.log(`Listening on ${port}`);
+// app.listen(3000, () => {
+//     console.log('Server listening on port 3000');
 
 app.listen(3000, () => {
-    console.log("Listening on https://captcha-apple.vercel.app");
+    console.log("Listening on https://apple-sign-node.vercel.app");
 })
